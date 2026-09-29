@@ -26,7 +26,8 @@ chmod +x system-monitor.sh
 Run the monitor:
 
 ./system-monitor.sh
-Requirements
+
+## Requirements
 Linux
 Bash
 top
@@ -34,3 +35,38 @@ free
 df
 ps
 awk
+
+## Useful Commands 
+
+### System Information
+
+```bash
+uname -a
+hostnamectl
+uptime
+
+### CPU and Memory
+
+```bash
+top
+free -h
+lscpu
+
+### Disk Usage
+
+```bash
+df -h
+du -sh /path/to/directory
+
+### Processes
+
+```bash
+ps aux
+pgrep <process>
+
+### Services
+
+```bash
+systemctl status <service>
+systemctl restart <service>
+journalctl -u <service>
