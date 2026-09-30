@@ -70,3 +70,17 @@ pgrep <process>
 systemctl status <service>
 systemctl restart <service>
 journalctl -u <service>
+
+## Tools
+
+### system-monitor.sh
+
+Displays basic system information and resource usage.
+
+### service-check.sh
+
+Checks the status of selected systemd services and returns an appropriate exit code.
+
+### log-analyzer.sh
+
+Analyzes recent system logs, errors, warnings, and failed systemd services.
